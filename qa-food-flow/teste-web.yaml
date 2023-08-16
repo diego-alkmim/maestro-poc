@@ -1,0 +1,15 @@
+appId: "http://google.com.br"
+---
+- launchApp
+- tapOn:
+    id: "APjFqb"
+- inputText: "Pathbit"
+- pressKey: Enter
+- tapOn:
+    text: "Pathbit"
+    index: 1
+- tapOn:
+    id: "navbar"
+- tapOn:
+    text: "Contato"
+- waitForAnimationToEnd

@@ -1,0 +1,34 @@
+appId: com.qazandoqafood
+---
+- tapOn: "Selecione seu endereço..."
+- tapOn: "PERMITIR"
+- tapOn:
+    id: "search-field"
+- inputText: "Pastelaria"
+- tapOn:
+    id: "com.google.android.inputmethod.latin:id/0_resource_name_obfuscated"
+    index: 48
+- tapOn: "Pastelaria da Maria"
+- tapOn:
+    point: "95%,43%"
+- scrollUntilVisible:
+    element: "Água sem gás"
+    direction: "DOWN"
+- tapOn:
+    point: "95%,76%"
+- tapOn:
+    id: "open-cart-button"
+- tapOn: "CONFIRMAR PEDIDO"
+- tapOn:
+    id: "cupom-field"
+- inputText: "CUPOM10"
+- tapOn: "Adicionar"
+- tapOn: "Adicionar"
+- scrollUntilVisible:
+    element: "Dinheiro"
+    direction: "DOWN"
+- tapOn:
+    point: "11%,64%"
+- tapOn:
+    id: "do-order-button"
+- assertVisible: "Pedido realizado"

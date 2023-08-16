@@ -1,0 +1,4 @@
+appId: com.qazandoqafood
+---
+- runFlow: "../subflows/login-flow.yaml"
+- runFlow: "../subflows/pedido-pastelaria-maria.yaml"
