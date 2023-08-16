@@ -1,11 +1,3 @@
 appId: com.qazandoqafood
 ---
 - launchApp
-- tapOn:
-    id: "email"
-- assertVisible: "email"
-- inputText: "teste@teste.com"
-- tapOn:
-    id: "password"
-- inputText: 123456
-- tapOn: "ENTRAR"
