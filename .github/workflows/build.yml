@@ -1,4 +1,4 @@
-name: Build and upload to Maestro Cloud (Native Android)
+name: Build Maestro Cloud
 
 on:
   push:
